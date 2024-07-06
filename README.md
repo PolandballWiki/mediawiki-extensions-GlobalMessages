@@ -12,7 +12,7 @@
 ### Permissions
 GlobalMessages add the permission `editglobalinterface` you can add it to any of your groups respectively, for example:
 
-```$wgGroupPermissions['staff']['editglobalinterface'] = true```;
+```$wgGroupPermissions['staff']['editglobalinterface'] = true```
 
 ## 🕹️ Usage
 Once you have installed the extension you must specify `wgGlobalMessagesCentralWiki` and `$wgGlobalMessagesReadFromDb`. Once this is done you must manually create the database, you can use clients like dbeaver for this. Otherwise if you don't do this you will see an error that the database cannot be found.
