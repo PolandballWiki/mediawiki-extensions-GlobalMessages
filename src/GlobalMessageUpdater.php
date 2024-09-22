@@ -36,6 +36,8 @@ class GlobalMessageUpdater {
         $this->messageCachePurges = [];
     }
 
+    // TODO: use transactions
+
     public function insert( int $pageId ): GlobalMessageUpdater {
         if ( $pageId <= 0 ) {
             return $this;
